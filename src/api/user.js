@@ -22,3 +22,10 @@ export function logout() {
     method: 'post'
   })
 }
+
+export function getMenus() {
+  return request({
+    url: '/vue-element-admin/getMenus',
+    method: 'get'
+  })
+}
